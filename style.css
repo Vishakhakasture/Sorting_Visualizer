@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  background: rgb(49, 77, 100);
+}
+.btn-dark {
+  background-color: none;
+  border-color: rgb(233, 233, 233, 0.3);
+}
+.btn-light {
+  border-color: black;
+}
+
+.buttons{
+  grid-template-columns: 1fr 1fr 2fr;
+}
+h1 {
+  background: #b7cece;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* flex-direction: column-reverse; */
+}
+.flex-container{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  transition: 2s all ease;
+}
+
+.flex-item{
+  
+  background: #b7cece;
+  border: 1pt solid black;
+  width: 18px;
+  transition: 0.1s all ease;
+}
+
+
+#input{
+  color: white;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
