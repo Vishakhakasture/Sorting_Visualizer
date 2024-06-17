@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: rgb(49, 77, 100);
+  background: rgb(74, 90, 104);
 }
 .btn-dark {
   background-color: none;
@@ -8,13 +8,15 @@ body {
 }
 .btn-light {
   border-color: black;
+  border: solid 2px;
 }
 
 .buttons{
   grid-template-columns: 1fr 1fr 2fr;
 }
 h1 {
-  background: #b7cece;
+  background: black;
+  color: #0dcaf0;
   padding: 20px;
 }
 nav {
@@ -35,7 +37,7 @@ nav {
 
 .flex-item{
   
-  background: #b7cece;
+  background: #858d8d;
   border: 1pt solid black;
   width: 18px;
   transition: 0.1s all ease;
